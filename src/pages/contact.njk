@@ -1,0 +1,51 @@
+{% extends "layout.njk" %}
+{% set activePage = "contact" %}
+
+{% block content %}
+<!-- Page Header -->
+<header class="page-header text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Contact Us</h1>
+        <p class="lead text-muted">We'd love to hear from you. Get in touch!</p>
+    </div>
+</header>
+
+<!-- Contact Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="glass-card p-5">
+                    <h3 class="fw-bold mb-4 text-center">Send us a Message</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control glass-input" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control glass-input" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select class="form-select glass-input" id="subject">
+                                <option selected>General Inquiry</option>
+                                <option value="1">Support</option>
+                                <option value="2">Feedback</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control glass-input" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg btn-glass-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

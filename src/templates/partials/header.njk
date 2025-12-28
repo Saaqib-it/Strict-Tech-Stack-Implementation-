@@ -1,0 +1,23 @@
+<nav class="glass-nav">
+    <div class="container nav-container">
+        <a href="index.html" class="brand">TechIntern</a>
+        
+        <button class="mobile-toggle" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link {% if activePage == 'home' %}active{% endif %}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link {% if activePage == 'about' %}active{% endif %}">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link {% if activePage == 'contact' %}active{% endif %}">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

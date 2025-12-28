@@ -1,0 +1,18 @@
+// vite.config.js
+import vituum from "file:///C:/Users/DELL/OneDrive/Documents/Saaqib/task2/node_modules/vituum/src/index.js";
+import nunjucks from "file:///C:/Users/DELL/OneDrive/Documents/Saaqib/task2/node_modules/@vituum/vite-plugin-nunjucks/index.js";
+var vite_config_default = {
+  plugins: [
+    vituum(),
+    nunjucks({
+      root: "./src/templates"
+    })
+  ],
+  build: {
+    outDir: "dist"
+  }
+};
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxERUxMXFxcXE9uZURyaXZlXFxcXERvY3VtZW50c1xcXFxTYWFxaWJcXFxcdGFzazJcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkM6XFxcXFVzZXJzXFxcXERFTExcXFxcT25lRHJpdmVcXFxcRG9jdW1lbnRzXFxcXFNhYXFpYlxcXFx0YXNrMlxcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vQzovVXNlcnMvREVMTC9PbmVEcml2ZS9Eb2N1bWVudHMvU2FhcWliL3Rhc2syL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHZpdHV1bSBmcm9tICd2aXR1dW0nXHJcbmltcG9ydCBudW5qdWNrcyBmcm9tICdAdml0dXVtL3ZpdGUtcGx1Z2luLW51bmp1Y2tzJ1xyXG5cclxuZXhwb3J0IGRlZmF1bHQge1xyXG4gICAgcGx1Z2luczogW1xyXG4gICAgICAgIHZpdHV1bSgpLFxyXG4gICAgICAgIG51bmp1Y2tzKHtcclxuICAgICAgICAgICAgcm9vdDogJy4vc3JjL3RlbXBsYXRlcydcclxuICAgICAgICB9KVxyXG4gICAgXSxcclxuICAgIGJ1aWxkOiB7XHJcbiAgICAgICAgb3V0RGlyOiAnZGlzdCdcclxuICAgIH1cclxufVxyXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQXVVLE9BQU8sWUFBWTtBQUMxVixPQUFPLGNBQWM7QUFFckIsSUFBTyxzQkFBUTtBQUFBLEVBQ1gsU0FBUztBQUFBLElBQ0wsT0FBTztBQUFBLElBQ1AsU0FBUztBQUFBLE1BQ0wsTUFBTTtBQUFBLElBQ1YsQ0FBQztBQUFBLEVBQ0w7QUFBQSxFQUNBLE9BQU87QUFBQSxJQUNILFFBQVE7QUFBQSxFQUNaO0FBQ0o7IiwKICAibmFtZXMiOiBbXQp9Cg==
